@@ -1,0 +1,35 @@
+baseURL: https://docs.home-cloud.io/
+languageCode: en-us
+title: Home Cloud
+
+module:
+  replacements: github.com/home-cloud-io/lotusdocs -> lotusdocs
+  imports:
+    - path: github.com/home-cloud-io/lotusdocs
+      disable: false
+    - path: github.com/gohugoio/hugo-mod-bootstrap-scss/v5
+      disable: false
+
+params:
+  docs:
+    themeColor: purple
+    darkMode: true
+    descriptions: true
+    sidebarIcons: true
+    titleIcon: true
+    repoURL: https://github.com/home-cloud-io/docs
+    editPage: true
+    lastMod: true
+    intLinkTooltip: true
+    prism: true
+    prismTheme: lotusdocs
+  social:
+    github: home-cloud-io
+  plausible:
+    dataDomain: docs.home-cloud.io
+    scriptURL: https://plausible.home-cloud.io/js/script.js
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
