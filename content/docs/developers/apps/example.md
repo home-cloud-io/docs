@@ -3,7 +3,7 @@ weight: 312
 title: "App Example"
 description: "Learn about developing apps through a quick example."
 icon: "article"
-draft: true
+draft: false
 toc: true
 ---
 
