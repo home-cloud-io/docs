@@ -27,7 +27,7 @@ params:
     github: home-cloud-io
   plausible:
     dataDomain: docs.home-cloud.io
-    scriptURL: https://plausible.home-cloud.io/js/script.js
+    scriptURL: https://plausible.steady-bytes.com/js/script.js
 
 markup:
   goldmark:
